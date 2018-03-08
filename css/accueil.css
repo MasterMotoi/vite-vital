@@ -59,3 +59,14 @@ body {
 	height: 100px;
 	width: auto;
 }
+
+.flexbox1{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.picto{
+	height: 30px;
+	width: auto;
+}
