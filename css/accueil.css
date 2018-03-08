@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-.header {
+.menu {
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
@@ -27,4 +27,40 @@ body {
 
 .sticky + .content {
   padding-top: 102px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu .container{
+	max-width: 100%;
+
+}
+
+.menu .box {
+  float: left;
+  padding: 5px;
+  width: 19.3%;
+ }
+
+
+.menu h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px; 
+}
+scroll-container {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
 }
