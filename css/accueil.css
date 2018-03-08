@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	background-color: #f1f1f1;
 }
 
 .col-1 {width: 8.33%;}
@@ -21,7 +22,6 @@
 	border: 1px;
 	height: 150px;
 	text-align: center;
-	background-color: #f1f1f1;
 }
 
 .row {
@@ -42,15 +42,12 @@ body {
 
 .menu {
   padding: 10px 16px;
-  background: #5C1111;
-  color: #f1f1f1;  
   text-align: center;
 }
 
 .header {
   padding: 10px 16px;
   background: #555;
-  color: #f1f1f1;
 }
 
 .content {
@@ -67,11 +64,6 @@ body {
   padding-top: 102px;
 }
 
-#salesman{
-	height: 100px;
-	width: auto;
-}
-
 .flexbox1{
 	display: flex;
 	justify-content: flex-end;
@@ -86,24 +78,17 @@ body {
 
 .container{
 	display: flex;
-	justify-content: space-between;
-	max-width: 100%;
-  font-family: 'Nunito', sans-serif;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius: 3px;
+	height: 50px;
 }
 
-.menu .box {
-  float: left;
-  background-color: green;
-  padding: 1px;
-  width: 19.3%;
- }
-
-
 .menu h2 {
-  color: green;
-  font-size: 20px;
+  color: black;
+  font-size: 15px;
   margin-bottom: 5px;
-  margin-top: 5px; 
+  margin-top: 5px;  
 }
 
 .logo {
