@@ -35,11 +35,13 @@ body {
   font-family: Arial;
 }
 
-
-
 .menu {
-text-align: center;
+  padding: 10px 16px;
+  background: #5C1111;
+  color: #f1f1f1;  
+  text-align: center;
 }
+
 .header {
   padding: 10px 16px;
   background: #555;
@@ -60,42 +62,6 @@ text-align: center;
   padding-top: 102px;
 }
 
-
-.menu {
-  text-align: center;
-}
-.menu .container{
-	max-width: 100%;
-
-}
-
-.menu .box {
-  float: left;
-  padding: 5px;
-  width: 19.3%;
- }
-
-
-.menu h2 {
-  color: #ffa800;
-  font-size: 20px;
-  margin-bottom: 5px;
-  margin-top: 5px; 
-}
-scroll-container {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-}
-scroll-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 5em;
-=======
 #salesman{
 	height: 100px;
 	width: auto;
@@ -110,5 +76,26 @@ scroll-page {
 .picto{
 	height: 30px;
 	width: auto;
+} 
 
+.container{
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+
+}
+
+.menu .box {
+  float: left;
+  background-color: green;
+  padding: 1px;
+  width: 19.3%;
+ }
+
+
+.menu h2 {
+  color: green;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px; 
 }
