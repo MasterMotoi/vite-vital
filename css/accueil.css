@@ -36,15 +36,14 @@
 }
 
 body {
-  margin: 30px;
-  font-family: Arial;
+  /*padding: 20px;*/
+  font-family: 'Chivo', sans-serif;
 }
 
 .menu {
-  padding: 10px 16px;
+  padding: 15px 150px;
   text-align: center;
-  z-index: 10;
-
+  padding-top: 25px;
 }
 
 .header {
@@ -53,7 +52,7 @@ body {
 }
 
 .content {
-  padding: 16px;
+  padding: 50px 100px;
 }
 
 .sticky {
@@ -79,18 +78,29 @@ body {
 } 
 
 .container{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	border-radius: 3px;
-	height: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  height: 50px;
 }
 
 .menu h2 {
   color: black;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 5px;
-  margin-top: 5px;  
+  margin-top: -3px;  
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: 'Asap Condensed', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 80px;
+  color: #0509ff;
 }
 
 .logo {
@@ -100,17 +110,37 @@ body {
   margin-top: 90pt;
 }
 
+a {
+  text-decoration: none;
+}
+
 .slogan {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   margin-top: -20px;
-  font-size: 15px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.bienvenue {
+  font-family: 'Asap Condensed', sans-serif;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 50px;
+  color: #0509ff;
+
+}
+
+.bienvenuetext {
+  padding: 5px 27%;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-size: 20px;
 }
 
 html {
   background-color: #f1f1f1;
 }
 
-/*this is horizontal scroll*/
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
 
@@ -195,3 +225,15 @@ div{
 }
 
 
+footer {
+   background-color: yellow;
+   padding: 50px;
+   text-align: center;
+}
+
+footer a {
+  color: blue;
+  padding: 30px;
+  text-decoration: none;
+  background-color: yellow;
+}
