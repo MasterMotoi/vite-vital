@@ -3,8 +3,9 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>L'indispensable de la maison</title>
+        <title>Trous de rechange pour passoire</title>
         <link rel="stylesheet" type="text/css" href="css/accueil.css">
+        <link rel="stylesheet" type="text/css" href="css/prod.css">
         <link href="https://fonts.googleapis.com/css?family=Vampiro+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -18,7 +19,7 @@
             </div>
 
             <div class="col-4">
-              <h1 class="logo">Vite & Vital</h1>
+              <a href="acceuil.html" style="text-decoration: none;"><h1 class="logo">Vite & Vital</h1></a>
               <p class="slogan">Vivre bien, vivre mieux.</p>
             </div>
 
@@ -75,28 +76,40 @@
         </div>
         
         <div class="content">
-        
-        </div>
+        	<div class="row">
+        		<div class="col-5">
+        			<img src="assets/trou.jpg" alt="Trou de rechange pour passoire" id="trou">
+					<p class="pseudo">JeanMichelPigeon</p>
+					<img src="assets/5star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">J’étais à deux doigts de me séparer de ma passoire préférée mais plus maintenant, merci!</p>
+					
+					<p class="pseudo">ThisisaNickname</p>
+					<img src="assets/4star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">Les trous sont super faciles à changer, ça vous change la vie!</p>
+					
+					<p class="pseudo">Kevin450</p>
+					<img src="assets/4.5star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">G'étai déséspéré parseke je devai jeté ma passoire. Grasse a ses trous de rechanje, elle squatte enkore fièremen mon étajère. Mè j'enleve 1/2 star parseke lé trous respire pa assé a mon avi.</p>
+        		</div>
 
-        
-        
-        
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("myMenu");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
+        		<div class="col-7">
+        			<h1 id="titreProd">Trous de rechange pour passoire, 1x1cm</h1>
+        			<p id="description">Fruits de 10 ans de recherche, nos experts en électroménager vous proposent des trous variés pour remplacer les trous usagers de vos passoires plastique, inox ou silicone. Disponible à l'unité ou en lot de 5 ou 10, livraison 24 secondes garantie, satisfait.<tag style="font-size: 6px;">Passoire non fournie</tag></p>
+		
+					<div id="flexAdd">
+						<div>
+							<a href="https://giphy.com/gifs/M4C0jeAkK12DK/html5"><img src="assets/plus.png" alt="add to cart buton" id="addButton"></a>
+						</div>
 
+						<div>
+							<h2 id="priceTag">19,99€</h2>
+						</div>
+					</div>
+        		</div>
+        	</div>
 
-    </script>
+        	<a href="produit.html"><img src="assets/up.png" alt="Back to the top" id="up"></a>
+		</div>
     </body>
 
 </html>
