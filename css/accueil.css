@@ -43,6 +43,8 @@ body {
 .menu {
   padding: 10px 16px;
   text-align: center;
+  z-index: 10;
+
 }
 
 .header {
@@ -107,4 +109,89 @@ body {
 html {
   background-color: #f1f1f1;
 }
+
+/*this is horizontal scroll*/
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+div{
+  box-sizing:border-box;
+}
+
+
+.horizontal-scroll-wrapper{
+  position:absolute;
+  display:block;
+  /*
+  top:0;
+  left:0;
+  */
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0e11ff;
+  border-radius: 10px;
+
+  box-shadow: -10px x10px #faff49;
+
+
+  width:15%;
+  height: 150%;
+  max-height:150%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  background:#f1f1f1;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+  z-index: 0;
+}
+.horizontal-scroll-wrapper div{
+  display:block;
+  padding:5px;
+  background:#f1f1f1;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+.squares{
+  /*padding: 400px 0 0 0;*/
+  padding-top: 20%;
+}
+
+.squares > div{
+  width:100%;
+  height:100%;
+
+  margin-bottom: -200%;
+}
+
+.squares .produit{
+
+  width: 80%;
+  height: 20%;
+
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.squares p{
+  text-align: center;
+  color: blue;
+  margin-top: 0px;
+}
+.squares .stars{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  height: 2.5%;
+
+  margin-top: -3%;
+
+}
+
 
