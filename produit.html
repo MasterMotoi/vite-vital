@@ -98,7 +98,7 @@
 		
 					<div id="flexAdd">
 						<div>
-							<a href="https://giphy.com/gifs/M4C0jeAkK12DK/html5"><img src="assets/plus.png" alt="add to cart buton" id="addButton"></a>
+							<a href="assets/umad.gif"><img src="assets/plus.png" alt="add to cart buton" id="addButton"></a>
 						</div>
 
 						<div>
@@ -110,6 +110,23 @@
 
         	<a href="produit.html"><img src="assets/up.png" alt="Back to the top" id="up"></a>
 		</div>
+
+		    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myMenu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+
+    </script>
     </body>
 
 </html>
