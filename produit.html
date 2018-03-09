@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Trous de rechange pour passoire</title>
+        <link rel="stylesheet" type="text/css" href="css/accueil.css">
+        <link rel="stylesheet" type="text/css" href="css/prod.css">
+        <link href="https://fonts.googleapis.com/css?family=Vampiro+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    </head>
+
+    <body>
+          <div class="row">
+            <div class="col-4">
+              
+            </div>
+
+            <div class="col-4">
+              <a href="acceuil.html" style="text-decoration: none;"><h1 class="logo">Vite & Vital</h1></a>
+              <p class="slogan">Vivre bien, vivre mieux.</p>
+            </div>
+
+            <div class="col-4">
+              <div class="flexbox1">
+                <div>
+                  <a href="http://google.com/"><img src="assets/search.png" alt="Search button" title="Rechercher" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/cart.png" alt="Search button" title="Panier" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/account.png" alt="Search button" title="Mon compte" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/home.png" alt="Search button" title="Accueil" class="picto"></a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+    <div class="menu" id="myMenu">
+          <div class="container">
+            
+            <a class="js-scrollTo" href="acceuil.html#cosmetique" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none; border: 1px; border-radius: 5px; margin-left: 5%; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">BEAUTE</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#cuisine" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">CUISINE</h2>
+              </div>    
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#electro" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">ELECTROMENAGER</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#brico_jardin" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">EXTERIEUR</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#voitures" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">VOITURE</h2>
+              </div>
+            </a>
+            <h1>&nbsp;</h1>
+        </div>
+        </div>
+        
+        <div class="content">
+        	<div class="row">
+        		<div class="col-5">
+        			<img src="assets/trou.jpg" alt="Trou de rechange pour passoire" id="trou">
+					<p class="pseudo">JeanMichelPigeon</p>
+					<img src="assets/5star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">J’étais à deux doigts de me séparer de ma passoire préférée mais plus maintenant, merci!</p>
+					
+					<p class="pseudo">ThisisaNickname</p>
+					<img src="assets/4star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">Les trous sont super faciles à changer, ça vous change la vie!</p>
+					
+					<p class="pseudo">Kevin450</p>
+					<img src="assets/4.5star.png" alt="5 stars rate" class="grade">
+					<p class="txtcomm">G'étai déséspéré parseke je devai jeté ma passoire. Grasse a ses trous de rechanje, elle squatte enkore fièremen mon étajère. Mè j'enleve 1/2 star parseke lé trous respire pa assé a mon avi.</p>
+        		</div>
+
+        		<div class="col-7">
+        			<h1 id="titreProd">Trous de rechange pour passoire, 1x1cm</h1>
+        			<p id="description">Fruits de 10 ans de recherche, nos experts en électroménager vous proposent des trous variés pour remplacer les trous usagers de vos passoires plastique, inox ou silicone. Disponible à l'unité ou en lot de 5 ou 10, livraison 24 secondes garantie, satisfait.<tag style="font-size: 6px;">Passoire non fournie</tag></p>
+		
+					<div id="flexAdd">
+						<div>
+							<a href="assets/umad.gif"><img src="assets/plus.png" alt="add to cart buton" id="addButton"></a>
+						</div>
+
+						<div>
+							<h2 id="priceTag">19,99€</h2>
+						</div>
+					</div>
+        		</div>
+        	</div>
+
+        	<a href="produit.html"><img src="assets/up.png" alt="Back to the top" id="up"></a>
+		</div>
+
+		    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myMenu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+
+    </script>
+    </body>
+
+</html>

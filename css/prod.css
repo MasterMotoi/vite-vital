@@ -1,0 +1,60 @@
+#trou{
+	width: 400px;
+	border: 3px solid #0509ff;
+	box-shadow: 10px 10px #faff49;
+}
+
+#titreProd{
+	text-align: left;
+	color: #040AFE;
+}
+
+#description{
+	text-align: justify;
+	margin-right: 17%;
+	height: 210px;
+}
+
+#flexAdd{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 17%;
+	align-items: flex-start;
+	height: 120px;
+}
+
+#addButton{
+	height: 100px;
+}
+
+#priceTag{
+	font-size: 50px;
+	color: #FC5300;
+}
+
+.pseudo{
+	margin-top: 100px;
+	text-align: left;
+	margin-left: 100px;
+}
+
+.grade{
+	width: 100px;
+	margin-top: 1px;
+	margin-left: 100px;
+	display: block;
+}
+
+.txtcomm{
+	width: 1000px;
+	margin-top: 1px;
+	text-align: left;
+	margin-left: 100px;
+}
+
+#up{
+	position: fixed;
+	height: 30px;
+	right: 10px;
+	bottom: 10px;
+}
