@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>L'indispensable de la maison</title>
+        <link rel="stylesheet" type="text/css" href="css/accueil.css">
+        <link href="https://fonts.googleapis.com/css?family=Vampiro+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    </head>
+
+    <body>
+          <div class="row">
+            <div class="col-4">
+              
+            </div>
+
+            <div class="col-4">
+              <h1 class="logo">Vite & Vital</h1>
+              <p class="slogan">Vivre bien, vivre mieux.</p>
+            </div>
+
+            <div class="col-4">
+              <div class="flexbox1">
+                <div>
+                  <a href="http://google.com/"><img src="assets/search.png" alt="Search button" title="Rechercher" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/cart.png" alt="Search button" title="Panier" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/account.png" alt="Search button" title="Mon compte" class="picto"></a>
+                </div>
+                <div>
+                  <a href="http://google.com/"><img src="assets/home.png" alt="Search button" title="Accueil" class="picto"></a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+    <div class="menu" id="myMenu">
+          <div class="container">
+            
+            <a class="js-scrollTo" href="acceuil.html#cosmetique" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none; border: 1px; border-radius: 5px; margin-left: 5%; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">BEAUTE</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#cuisine" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">CUISINE</h2>
+              </div>    
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#electro" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">ELECTROMENAGER</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#brico_jardin" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">EXTERIEUR</h2>
+              </div>
+            </a>
+            <a class="js-scrollTo" href="acceuil.html#voitures" style="background-color: #0e11ff; padding: 10px; width: 220px; text-decoration: none;border: 1px; border-radius: 5px; height: 50px;">
+              <div>
+                <h2 style="background-color: #0e11ff; color: white;">VOITURE</h2>
+              </div>
+            </a>
+            <h1>&nbsp;</h1>
+        </div>
+        </div>
+        
+        <div class="content">
+        
+        </div>
+
+        
+        
+        
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myMenu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+
+    </script>
+    </body>
+
+</html>
